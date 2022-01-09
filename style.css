@@ -1,0 +1,47 @@
+.container{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    min-height: 600px;
+    background-color: #00004d;
+    color: #89cff0;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #89cff0;
+  }
+  button{
+    margin-top:20px;
+    padding: 10px;
+    background-color: #89cff0;
+    color: #00004d;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #tipP{
+    visibility: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+  }
+  #result{
+    visibility: hidden; 
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+  }
+  #each{
+    visibility: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+}
